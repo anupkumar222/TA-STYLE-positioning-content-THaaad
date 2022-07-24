@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.float-left{
+    float: left;
+    width: 40%;
+}
+.float-right{
+    float: right;
+    width: 33%;
+ }
+/* Custom css */
+
+/* header */
+
+.header{
+    background-color: #cd4c4c;
+    padding: 15px 0;
+    position: fixed;
+    top: auto;
+    width: 100%;
+
+}
+.img-logo{
+    width: 60px;
+}
+.nav{
+    float: right;
+    padding-top: 15px;
+}
+a{
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 24px;
+    color: white;
+    }
+.logo{
+    float: left;
+}
+
+/* article */
+
+h2{
+    font-size: 36px;
+    margin-top: 200px;
+}
+p{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.article-img{
+ object-fit: cover;
+ width: 400px;
+ height: 400px;
+ margin-top: 180px;
+}
+.article-img2{
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    margin-top: 150px;
+ }
+ .one{
+    float: left;
+    margin-left: 200px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+ }
+ .one img{
+    margin-right: 10px;
+ }
+
+ /* footer */
+
+ .footer{
+    /* background-color: aqua; */
+    text-align: right;
+    padding: 10px;
+    height: 25px;
+    width: 100%;
+    position: fixed;
+    bottom: 2px;
+ }
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 25%;
+    background-color: greenyellow;
+    margin-right: 50px;
+}
